@@ -42,7 +42,7 @@ export const fetchPokemonData = async (id: number | string) => {
   );
   return result.data;
 };
-export default function Home() {
+export default function Pokedex() {
   const router = useRouter();
 
   const [page, setPage] = React.useState<number>(1);
